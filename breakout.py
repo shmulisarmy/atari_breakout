@@ -22,7 +22,7 @@ while True:
     for event in pg.event.get():
         if event.type == pg.QUIT: 
             pg.quit()
-            break
+            sys.exit()
     clock.tick(60)
     window.fill('black')
     key = pg.key.get_pressed()
