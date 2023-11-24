@@ -23,7 +23,7 @@ while True:
         if event.type == pg.QUIT: 
             pg.quit()
             sys.exit()
-    clock.tick(60)
+    clock.tick(80)
     window.fill('black')
     key = pg.key.get_pressed()
     if key[pg.K_LEFT]:
